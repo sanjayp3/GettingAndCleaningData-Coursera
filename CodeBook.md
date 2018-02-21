@@ -43,4 +43,31 @@ This file contains the main code to perform the various activities required:
 Output File Generated:
 1. Once you run the script, it will generate secondTidySet.txt file with tidy data set.
 
+Variables Used:
+
+1. datafile —> Variable to store the downloaded file data/datafile.zip
+2. x_train —> Reading X_train.txt
+3. y_train —> Reading y_train.txt
+4. subject_train —> subject_train.txt
+
+5. x_test —> Reading X_test.txt
+6. y_test —> Reading y_test.txt
+7. subject_test —> subject_test.txt
+
+8. features —> reading features data
+9. activityLabels —> reading activity labels data
+
+10. mrg_train —> Adding  columns data from x_train, y_train & subject_train 
+11 mrg_test —> Adding column data from x_test, y_test & subject_test
+
+12. mean_and_std —> Vector for defining mean , SD & IDs
+
+13. setForMeanAndStd —> Filtering data set where mean_and_std is true
+
+14. setWithActivityNames —> Added activityLabel & merged
+
+15. secondTidySet —> Created a second tidy data set 
+
+
+
 
